@@ -5,7 +5,7 @@ export interface FlowerSection {
   images: string[];
 }
 
-export const MESSENGER_LINK = "https://www.facebook.com/messages/t/104393992256626";
+export const MESSENGER_LINK = "https://www.facebook.com/LiceriaRose/";
 
 export const LOGO_URL = "https://res.cloudinary.com/do4iuaiea/image/upload/v1769423948/logo-removebg-preview_wjjn33.png";
 
