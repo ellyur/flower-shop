@@ -78,7 +78,7 @@ const ImageLightbox = ({
         <VisuallyHidden>
           <DialogTitle>{title} - Image {currentIndex + 1} of {images.length}</DialogTitle>
         </VisuallyHidden>
-        
+
         {/* Close Button */}
         <button
           onClick={onClose}
@@ -98,18 +98,21 @@ const ImageLightbox = ({
           <>
             <button
               onClick={goToPrevious}
-              className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-50 p-2 md:p-3 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors"
+              className="absolute left-2 md:left-4 top-1/2 -translate-y-1/2 z-50 p-2 md:p-3 bg-white/10 hover:bg-white/20 rounded-full text-pink-300 transition-colors"
               aria-label="Previous image"
             >
               <ChevronLeft className="w-5 h-5 md:w-6 md:h-6" />
             </button>
+
             <button
               onClick={goToNext}
-              className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-50 p-2 md:p-3 bg-white/10 hover:bg-white/20 rounded-full text-white transition-colors"
+              className="absolute right-2 md:right-4 top-1/2 -translate-y-1/2 z-50 p-2 md:p-3 bg-white/10 hover:bg-white/20 rounded-full text-pink-400 transition-colors"
               aria-label="Next image"
             >
               <ChevronRight className="w-5 h-5 md:w-6 md:h-6" />
             </button>
+
+
           </>
         )}
 

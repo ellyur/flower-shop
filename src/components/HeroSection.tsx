@@ -66,7 +66,7 @@ const HeroSection = () => {
       </div>
 
       {/* Scroll Down Indicator */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-20 animate-bounce">
+      <div className="absolute bottom-8 inset-x-0 z-20 flex justify-center animate-bounce">
         <a href="#roses" className="text-white/80 hover:text-white transition-colors cursor-pointer">
           <svg
             width="40"
@@ -82,6 +82,7 @@ const HeroSection = () => {
           </svg>
         </a>
       </div>
+
 
       {/* Bottom fade for smooth transition */}
       <div className="absolute bottom-0 left-0 w-full h-32 bg-gradient-to-t from-background via-background/40 to-transparent z-10 pointer-events-none"></div>
