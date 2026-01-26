@@ -5,7 +5,6 @@ import HowToOrder from "@/components/HowToOrder";
 import ReviewsSection from "@/components/ReviewsSection";
 import ImportantReminders from "@/components/ImportantReminders";
 import Footer from "@/components/Footer";
-import FloatingMessengerButton from "@/components/FloatingMessengerButton";
 import { flowerSections } from "@/data/flowerCatalog";
 
 const Index = () => {
@@ -32,7 +31,6 @@ const Index = () => {
         <ImportantReminders />
       </main>
       <Footer />
-      <FloatingMessengerButton />
     </div>
   );
 };
