@@ -36,7 +36,7 @@ src/
   - Removed lovable-tagger dependency from vite config
 - January 31, 2026: Updated branding assets
   - Replaced hero section background video
-  - Updated shop logo URL
+  - Reverted shop logo URL to original version
 
 ## User Preferences
 - None recorded yet
