@@ -34,6 +34,9 @@ src/
 - January 31, 2026: Migrated from Lovable to Replit environment
   - Updated Vite config for Replit (port 5000, allowedHosts)
   - Removed lovable-tagger dependency from vite config
+- January 31, 2026: Updated branding assets
+  - Replaced hero section background video
+  - Updated shop logo URL
 
 ## User Preferences
 - None recorded yet
