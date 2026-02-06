@@ -3,6 +3,7 @@ export interface FlowerSection {
   title: string;
   colorReferenceImage?: string;
   images: string[];
+  outOfStock?: boolean;
 }
 
 export const MESSENGER_LINK = "https://www.facebook.com/LiceriaRose/";
@@ -44,6 +45,7 @@ export const flowerSections: FlowerSection[] = [
   {
     id: "roses",
     title: "Local Roses Bouquet",
+    outOfStock: true,
     colorReferenceImage: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424178/VALENTINE_S_PRICELIST_-_45_zlpenv.jpg",
     images: [
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424215/VALENTINE_S_PRICELIST_-_72_bupwfw.jpg",
