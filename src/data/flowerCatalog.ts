@@ -35,7 +35,7 @@ export const flowerSections: FlowerSection[] = [
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424249/VALENTINE_S_PRICELIST_-_16_um6bg5.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424248/VALENTINE_S_PRICELIST_-_15_fx4uba.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424246/VALENTINE_S_PRICELIST_-_14_ptuawr.jpg",
-      "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424244/VALENTINE_S_PRICELIST_-_13_blncnf.jpg",
+      { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424244/VALENTINE_S_PRICELIST_-_13_blncnf.jpg", outOfStock: true },
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424243/VALENTINE_S_PRICELIST_-_12_a8ltay.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424241/VALENTINE_S_PRICELIST_-_11_u4vhbw.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424240/VALENTINE_S_PRICELIST_-_10_ndg2eo.jpg",
@@ -142,7 +142,7 @@ export const flowerSections: FlowerSection[] = [
     images: [
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424086/VALENTINE_S_PRICELIST_-_28_hpksvo.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424086/VALENTINE_S_PRICELIST_-_27_n8d7b0.jpg",
-      "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424085/VALENTINE_S_PRICELIST_-_26_ovm9wx.jpg",
+      { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424085/VALENTINE_S_PRICELIST_-_26_ovm9wx.jpg", outOfStock: true },
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424082/IMG_3106_iykdfi.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424081/VALENTINE_S_PRICELIST_-_115_eiig3c.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424080/VALENTINE_S_PRICELIST_-_44_usesk8.jpg",
