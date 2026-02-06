@@ -2,7 +2,7 @@ export interface FlowerSection {
   id: string;
   title: string;
   colorReferenceImage?: string;
-  images: string[];
+  images: (string | { url: string; outOfStock: boolean })[];
   outOfStock?: boolean;
 }
 
@@ -81,8 +81,8 @@ export const flowerSections: FlowerSection[] = [
     id: "special",
     title: "Special Bouquet — Best Sellers",
     images: [
-      "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424157/VALENTINE_S_PRICELIST_-_113_vtzzjh.jpg",
-      "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424155/VALENTINE_S_PRICELIST_-_112_kynxvv.jpg",
+      { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424157/VALENTINE_S_PRICELIST_-_113_vtzzjh.jpg", outOfStock: true },
+      { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424155/VALENTINE_S_PRICELIST_-_112_kynxvv.jpg", outOfStock: true },
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424153/VALENTINE_S_PRICELIST_-_111_ikthuu.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424152/VALENTINE_S_PRICELIST_-_110_yy68xt.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424151/VALENTINE_S_PRICELIST_-_109_c9mpzd.jpg",
@@ -90,7 +90,7 @@ export const flowerSections: FlowerSection[] = [
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424147/VALENTINE_S_PRICELIST_-_107_exybpy.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424146/VALENTINE_S_PRICELIST_-_105_kgmgtb.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424145/VALENTINE_S_PRICELIST_-_104_dbb1xg.jpg",
-      "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424144/VALENTINE_S_PRICELIST_-_103_vmj79o.jpg",
+      { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424144/VALENTINE_S_PRICELIST_-_103_vmj79o.jpg", outOfStock: true },
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424142/VALENTINE_S_PRICELIST_-_102_uqwqqn.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424141/VALENTINE_S_PRICELIST_-_101_ymomob.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424140/VALENTINE_S_PRICELIST_-_100_szhfwh.jpg",

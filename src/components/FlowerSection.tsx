@@ -12,9 +12,9 @@ const FlowerSection = ({ section }: FlowerSectionProps) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   // Combine color reference image with bouquet images for lightbox navigation
-  const allImages = section.colorReferenceImage
+  const allImages = (section.colorReferenceImage
     ? [section.colorReferenceImage, ...section.images]
-    : section.images;
+    : section.images).map(img => typeof img === 'string' ? img : img.url);
 
   const openLightbox = (index: number) => {
     setSelectedIndex(index);
@@ -67,10 +67,13 @@ const FlowerSection = ({ section }: FlowerSectionProps) => {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 md:gap-6">
           {section.images.map((image, index) => {
             const lightboxIndex = section.colorReferenceImage ? index + 1 : index;
+            const imageUrl = typeof image === 'string' ? image : image.url;
+            const isIndividualOutOfStock = typeof image === 'string' ? false : image.outOfStock;
+            const displayOutOfStock = section.outOfStock || isIndividualOutOfStock;
 
             return (
               <button
-                key={image}
+                key={imageUrl}
                 onClick={() => openLightbox(lightboxIndex)}
                 className="relative aspect-square cursor-pointer group"
               >
@@ -80,12 +83,12 @@ const FlowerSection = ({ section }: FlowerSectionProps) => {
                 {/* Inner white border frame */}
                 <div className="absolute inset-2 bg-white rounded-md shadow-lg overflow-hidden">
                   <img
-                    src={image}
+                    src={imageUrl}
                     alt={`${section.title} bouquet ${index + 1}`}
                     className="w-full h-full object-cover p-2 group-hover:scale-110 transition-transform duration-500"
                     loading="lazy"
                   />
-                  {section.outOfStock && (
+                  {displayOutOfStock && (
                     <div className="absolute inset-0 flex items-center justify-center bg-black/40">
                       <span className="bg-red-600 text-white px-3 py-1 rounded-full text-xs md:text-sm font-bold uppercase tracking-wider transform -rotate-12 border-2 border-white shadow-lg">
                         Out of Stock
