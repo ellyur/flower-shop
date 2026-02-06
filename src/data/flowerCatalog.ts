@@ -45,7 +45,7 @@ export const flowerSections: FlowerSection[] = [
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424234/VALENTINE_S_PRICELIST_-_6_j9mgnh.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424233/VALENTINE_S_PRICELIST_-_5_ntzx5h.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424231/IMG_3116_thpqiy.jpg",
-      { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424230/IMG_3108_ozomfb.jpg", outOfStock: true },
+      "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424230/IMG_3108_ozomfb.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424229/IMG_2997_bpt0ip.jpg",
     ],
   },
