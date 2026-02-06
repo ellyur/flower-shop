@@ -16,6 +16,13 @@ export const flowerSections: FlowerSection[] = [
     title: "Carnation Bouquet",
     colorReferenceImage: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424232/VALENTINE_S_PRICELIST_-_4_siov08.jpg",
     images: [
+      "https://res.cloudinary.com/dkazjosk5/image/upload/v1770358725/623118720_1343239264271504_5226904546222149344_n_tdi9zm.jpg",
+      "https://res.cloudinary.com/dkazjosk5/image/upload/v1770358725/623153072_1207201454898153_7256244415670471117_n_1_ca6lcm.jpg",
+      "https://res.cloudinary.com/dkazjosk5/image/upload/v1770358726/623153072_1207201454898153_7256244415670471117_n_colvpl.jpg",
+      "https://res.cloudinary.com/dkazjosk5/image/upload/v1770358725/623069447_983253778204106_8890491188420395567_n_snp0ak.jpg",
+      "https://res.cloudinary.com/dkazjosk5/image/upload/v1770358726/625116884_1255877346422448_8591132426544876724_n_izui0u.jpg",
+      "https://res.cloudinary.com/dkazjosk5/image/upload/v1770358726/625091868_1966827690911354_5384349930839765333_n_lme8yu.jpg",
+      "https://res.cloudinary.com/dkazjosk5/image/upload/v1770358726/622742427_1512518336963273_571631758227101315_n_ebdxxb.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424264/VALENTINE_S_PRICELIST_-_114_e3kern.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424263/VALENTINE_S_PRICELIST_-_24_yqhy7j.jpg",
       "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424261/VALENTINE_S_PRICELIST_-_23_drtet2.jpg",
