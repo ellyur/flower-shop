@@ -106,7 +106,7 @@ export const flowerSections: FlowerSection[] = [
       { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424137/VALENTINE_S_PRICELIST_-_98_fjhhhn.jpg", outOfStock: true },
       { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424136/VALENTINE_S_PRICELIST_-_97_sszn5y.jpg", outOfStock: true },
       { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424135/VALENTINE_S_PRICELIST_-_96_bjk9gf.jpg", outOfStock: true },
-      "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424134/VALENTINE_S_PRICELIST_-_95_kmbtuw.jpg",
+      { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424134/VALENTINE_S_PRICELIST_-_95_kmbtuw.jpg", outOfStock: true },
       { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424133/VALENTINE_S_PRICELIST_-_94_zsenuu.jpg", outOfStock: true },
       { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424132/VALENTINE_S_PRICELIST_-_93_dnndtb.jpg", outOfStock: true },
       { url: "https://res.cloudinary.com/do4iuaiea/image/upload/v1769424131/VALENTINE_S_PRICELIST_-_92_duqmzo.jpg", outOfStock: true },
